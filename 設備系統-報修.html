@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 实例</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron bg-info text-white">
+            <h3>設備系統-報修</h3>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="name">姓名:</label>
+                <input type="name" class="form-control" id="name" placeholder="請輸入姓名">
+            </div>
+            <div class="form-group">
+                <label for="name">電話:</label>
+                <input type="name" class="form-control" id="name" placeholder="請輸入電話">
+            </div>
+            <div class="form-group">
+                <label for="email">電子郵件:</label>
+                <input type="email" class="form-control" id="email" placeholder="請輸入信箱">
+            </div>
+            <div class="container">
+
+                <form>
+                    <select name="cars" class="custom-select-sm">
+                        <option selected>問題選項</option>
+                        <option value="CPU">CPU</option>
+                        <option value="顯示卡">顯示卡</option>
+                        <option value="記憶體">記憶體</option>
+                    </select>
+
+                    <div class="form-group">
+                        <label for="comment">問題描述:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">回報問題</button>
+                </form>
+
+            </div>
+           
+
+</body>
+</html>
